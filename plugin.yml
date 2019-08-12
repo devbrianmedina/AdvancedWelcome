@@ -1,0 +1,6 @@
+name: Advanced-Welcome
+main: brianmedina.advancedwelcome.Main
+author: "@TheDevBrian"
+version: 0.1
+website: "https://twitter.com/TheDevBrian"
+api: [1.0.8]
