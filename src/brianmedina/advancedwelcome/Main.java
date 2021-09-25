@@ -19,13 +19,13 @@ public class Main extends PluginBase {
             config.set("type", "message");
             config.set("message", lines);
             config.set("title", "§l§3Welcome to your server");
-            config.set("subtitle", "§3website§c: §4https://twitter.com/TheDevBrian");
+            config.set("subtitle", "§3website§c: §4https://twitter.com/DevBrianMedina");
             config.save();
         }
         getServer().getPluginManager().registerEvents(new JoinListener(this), this);
         getLogger().info("§a--- -- ENABLED -- ---");
         getLogger().info("§a   --- TWITTER ---");
-        getLogger().info("   §b@§aTheDevBrian");
-        getLogger().info("§bhttps://twitter.com/TheDevBrian");
+        getLogger().info("   §b@§aDevBrianMedina");
+        getLogger().info("§bhttps://twitter.com/DevBrianMedina");
     }
 }
